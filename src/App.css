@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-card {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: -3px 0px 21px -2px rgba(0,0,0,0.86);
+}
+
+.color-info {
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+}
